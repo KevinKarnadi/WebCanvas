@@ -1,0 +1,82 @@
+body {
+    background-image: url("images/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#canvas {
+    margin-left: 40px;
+    border: 4px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#tools1 {
+    margin-top: 15px;
+    margin-left: 40px;
+    justify-content: left;
+    display: flex;
+}
+
+#tools2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    justify-content: left;
+    display: flex;
+}
+
+#colorPicker {
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+#penRange {
+    align-self: center;
+    margin-right: 15px;
+}
+
+button {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.toolbtn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+}
+
+.toolbtn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#tmp_canvas {
+    position: absolute;
+    top: 108px;
+    left: 40px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#upload {
+    display: none;
+}
+
+#appTitle {
+    margin-top: 20px;
+    margin-left: 570px;
+    font-family: "Verdana";
+    font-size: 48px;
+    color: black;
+}
